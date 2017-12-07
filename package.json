@@ -1,0 +1,24 @@
+{
+  "name": "wot-contacts",
+  "version": "0.0.1",
+  "description": "Manage multiple wot-identity contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "dependency-check package.json && standard && tape test/ | tap-spec"
+  },
+  "keywords": [
+    "crypto",
+    "wot"
+  ],
+  "author": "jayrbolton@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "sodium-universal": "1.4.0"
+  }
+}
