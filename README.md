@@ -1,4 +1,6 @@
-# wot-keyring
+# wot-contacts
+
+Manage and verify a collection of other users
 
 ## addUser(user, contacts)
 
